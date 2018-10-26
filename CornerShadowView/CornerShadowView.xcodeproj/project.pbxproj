@@ -139,8 +139,8 @@
 		75097C23217EB66100D78BC8 /* CornerShadowView */ = {
 			isa = PBXGroup;
 			children = (
-				75097C24217EB66100D78BC8 /* WJDCornerShadowView.m */,
 				75097C25217EB66100D78BC8 /* WJDCornerShadowView.h */,
+				75097C24217EB66100D78BC8 /* WJDCornerShadowView.m */,
 			);
 			path = CornerShadowView;
 			sourceTree = "<group>";
@@ -452,13 +452,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DG6EH88W5;
 				INFOPLIST_FILE = CornerShadowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.CornerShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,13 +470,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DG6EH88W5;
 				INFOPLIST_FILE = CornerShadowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wjd.CornerShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
