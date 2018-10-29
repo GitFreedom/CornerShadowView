@@ -20,19 +20,19 @@
     [self addDemoViews];
 }
 - (void)addDemoViews {
-    
+    //创建view
     UIView *view         = [UIView new];
     view.backgroundColor = [UIColor blueColor];
-    
+    //创建label
     UILabel *label        = [UILabel new];
     label.text            = @"Freedom";
     label.font            = [UIFont systemFontOfSize:16.0f];
     label.textColor       = [UIColor whiteColor];
     label.backgroundColor = [UIColor blackColor];
-    
+    //创建button
     UIButton *button      = [UIButton new];
     [button setImage:[UIImage imageNamed:@"temp"] forState:UIControlStateNormal];
-    
+    //创建imageView
     UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"temp"]];
     
     NSArray *classNameArray   = @[view,label,button,imageView];
